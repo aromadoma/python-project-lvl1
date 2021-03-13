@@ -11,4 +11,7 @@ jobs:
       - uses: actions/setup-node@v1
       - run: sudo apt-get install -y make
       - run: python3 -m pip install poetry
+      - run: ls -la
+      - run: pwd
+      - run: make install
       - run: make lint  
