@@ -9,5 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - run: sudo apt-get install -y poetry make
+      - run: sudo apt-get install -y make
+      - run: python3 -m pip3 install poetry
       - run: make lint  
