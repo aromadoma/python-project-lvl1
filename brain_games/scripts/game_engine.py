@@ -1,6 +1,7 @@
 import prompt
 from brain_games.games.brain_calc import main as brain_calc
 from brain_games.games.brain_even import main as brain_even
+from brain_games.games.brain_gcd import main as brain_gcd
 
 
 def start_game(func):
@@ -23,3 +24,7 @@ def start_calc():
 
 def start_even():
     start_game(brain_even)
+
+
+def start_gcd():
+    start_game(brain_gcd)
