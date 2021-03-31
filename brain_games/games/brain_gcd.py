@@ -22,7 +22,8 @@ def main():
         print('Correct!')
         return 0
     else:
-        print("'{}' is wrong answer ;(. Correct answer was '{}'.\n".format(answer, gcd))
+        print("'{}' is wrong answer ;(. Correct answer was '{}'.\n"
+              "".format(answer, gcd))
         return 1
 
 

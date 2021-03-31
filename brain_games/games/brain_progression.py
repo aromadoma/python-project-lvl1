@@ -10,7 +10,7 @@ def main():
     for i in range(0, 9):
         progression.append(progression[-1] + increment)
     print('What number is missing in the progression?')
-    print(f'Question: ', end='')
+    print('Question: ', end='')
     for element in progression:
         if progression.index(element) != hidden_elem_index:
             print(element, end=' ')
@@ -22,7 +22,8 @@ def main():
         print('Correct!')
         return 0
     else:
-        print("'{}' is wrong answer ;(. Correct answer was '{}'.\n".format(answer, progression[hidden_elem_index]))
+        print("'{}' is wrong answer ;(. Correct answer was '{}'.\n"
+              "".format(answer, progression[hidden_elem_index]))
         return 1
 
 
