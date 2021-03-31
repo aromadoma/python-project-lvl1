@@ -8,7 +8,7 @@ packages = [
 ]
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.game_engine:brain_games"
+brain-games = "brain_games.scripts.game_engine:start_games"
 brain-even = "brain_games.scripts.game_engine:start_even"
 brain-calc = "brain_games.scripts.game_engine:start_calc"
 brain-gcd = "brain_games.scripts.game_engine:start_gcd"
