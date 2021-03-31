@@ -3,6 +3,7 @@ from brain_games.games.brain_calc import main as brain_calc
 from brain_games.games.brain_even import main as brain_even
 from brain_games.games.brain_gcd import main as brain_gcd
 from brain_games.games.brain_progression import main as brain_progression
+from brain_games.games.brain_prime import main as brain_prime
 
 
 def start_game(func):
@@ -33,3 +34,7 @@ def start_gcd():
 
 def start_progression():
     start_game(brain_progression)
+
+
+def start_prime():
+    start_game(brain_prime)
