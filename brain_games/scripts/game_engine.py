@@ -4,6 +4,7 @@ from brain_games.games.brain_even import main as brain_even
 from brain_games.games.brain_gcd import main as brain_gcd
 from brain_games.games.brain_progression import main as brain_progression
 from brain_games.games.brain_prime import main as brain_prime
+from brain_games.games.brain_games import main as brain_games
 
 
 def start_game(func):
@@ -38,3 +39,7 @@ def start_progression():
 
 def start_prime():
     start_game(brain_prime)
+
+
+def start_games():
+    start_game(brain_games)
