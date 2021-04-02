@@ -10,6 +10,7 @@ def is_prime(number):
 
 
 def main():
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     number = random.randint(0, 100)
     print('Question: {}'.format(number))
     answer = prompt.string('Your answer: ')

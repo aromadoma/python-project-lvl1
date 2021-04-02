@@ -12,6 +12,7 @@ def find_gcd(a, b):
 
 
 def main():
+    print('Find the greatest common divisor of given numbers.')
     a = random.randint(0, 100)
     b = random.randint(0, 100)
     print(f'Question: {a} {b}')

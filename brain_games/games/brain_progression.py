@@ -9,6 +9,7 @@ def main():
     progression = [first_element]
     for i in range(1, 10):
         progression.append(first_element + increment * i)
+    print('What number is missing in the progression?')
     print('Question: ', end='')
     for element in progression:
         if progression.index(element) != hidden_elem_index:

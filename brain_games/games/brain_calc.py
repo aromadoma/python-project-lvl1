@@ -3,6 +3,7 @@ import random
 
 
 def main():
+    print('What is the result of the expression?')
     a = random.randint(0, 100)
     b = random.randint(0, 100)
     action = random.choice(['-', '+', '*'])

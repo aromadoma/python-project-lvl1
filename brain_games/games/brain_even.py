@@ -3,6 +3,7 @@ import random
 
 
 def main():
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     number = random.randint(0, 100)
     if number % 2 == 0:
         correct_answer = 'yes'

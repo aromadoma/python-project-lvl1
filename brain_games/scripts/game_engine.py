@@ -22,27 +22,22 @@ def start_game(func):
 
 
 def start_calc():
-    print('What is the result of the expression?')
     start_game(brain_calc)
 
 
 def start_even():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
     start_game(brain_even)
 
 
 def start_gcd():
-    print('Find the greatest common divisor of given numbers.')
     start_game(brain_gcd)
 
 
 def start_progression():
-    print('What number is missing in the progression?')
     start_game(brain_progression)
 
 
 def start_prime():
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     start_game(brain_prime)
 
 
