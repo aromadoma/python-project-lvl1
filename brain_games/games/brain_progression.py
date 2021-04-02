@@ -7,8 +7,8 @@ def main():
     hidden_elem_index = random.randint(0, 10)
     increment = random.randint(0, 10)
     progression = [first_element]
-    for i in range(0, 9):
-        progression.append(progression[-1] + increment)
+    for i in range(1, 10):
+        progression.append(first_element + increment * i)
     print('What number is missing in the progression?')
     print('Question: ', end='')
     for element in progression:
